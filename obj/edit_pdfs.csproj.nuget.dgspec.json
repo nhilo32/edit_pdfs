@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\01-MyLocalFiles\\ad_MyProjects\\VSCode\\edit_pdfs\\edit_pdfs.csproj": {}
+  },
+  "projects": {
+    "C:\\01-MyLocalFiles\\ad_MyProjects\\VSCode\\edit_pdfs\\edit_pdfs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\01-MyLocalFiles\\ad_MyProjects\\VSCode\\edit_pdfs\\edit_pdfs.csproj",
+        "projectName": "edit_pdfs",
+        "projectPath": "C:\\01-MyLocalFiles\\ad_MyProjects\\VSCode\\edit_pdfs\\edit_pdfs.csproj",
+        "packagesPath": "C:\\Users\\hilo\\.nuget\\packages\\",
+        "outputPath": "C:\\01-MyLocalFiles\\ad_MyProjects\\VSCode\\edit_pdfs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hilo\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
