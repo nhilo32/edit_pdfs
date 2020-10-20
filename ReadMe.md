@@ -17,3 +17,6 @@ https://docs.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code
     In the Terminal, enter the following command:
         .NET Core CLI
         dotnet new console
+
+
+git: add remote
