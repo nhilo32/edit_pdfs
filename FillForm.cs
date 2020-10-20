@@ -10,7 +10,7 @@ namespace edit_pdfs
 {
     public class FillForm
     {
-        // This file needs to be unlocked/unprotected or use the commented lines below
+        // This file needs to be unlocked/unprotected, if it isnt you will need to use the commented lines below
         public static readonly String PDFSRC = "./pdfs/TEMPLATE.pdf";
  
         public void ManipulatePdf(
