@@ -10,14 +10,12 @@ namespace edit_pdfs
 {
     public class FillForm
     {
-        // This file needs to be unlocked/unprotected, if it isnt you will need to use the commented lines below
-        public static readonly String PDFSRC = "./pdfs/TEMPLATE.pdf";
- 
-        public void ManipulatePdf(
+        public void FillSvcPdf(
             String DEST,
             String USERNAME,
             String COMMENT)
         {
+            String PDFSRC = MyConst.PdfSvcActTemplate;
             // If pdf is locked or you dont know the password use below commented lines
             //PdfReader reader = new PdfReader(PDFSRC).SetUnethicalReading(true);
             //PdfDocument pdfDoc = new PdfDocument(reader, new PdfWriter(dest));
@@ -27,7 +25,7 @@ namespace edit_pdfs
  
             form.GetField("userid").SetValue("  "+USERNAME);
             form.GetField("reqdate").SetValue("20201015");
-            // form.GetField("justify").SetValue(COMMENT);
+            // form.GetField("justify").SetValue(COMMENT); //THIS IS BOX 13
             form.GetField("optinfo").SetValue(COMMENT);
  
             pdfDoc.Close();
